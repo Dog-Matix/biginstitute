@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+  <name>Big Institute</name>
+  <version>0.01</version>
+  <creationDate>24/04/2017</creationDate>
+  <author>Antony Dickens</author>
+  <authorEmail>antony@apdickens.co.uk</authorEmail>
+  <copyright>Copyright (C) 2017 The Big Institute</copyright>
+  <description>Big Institute Joomla 3 template with Bootstrap 3.3.7</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_preview.png</filename>
+    <filename>template_thumbnail.png</filename>
+    <folder>css</folder>
+    <folder>fonts</folder>
+    <folder>js</folder>
+    <folder>img</folder>
+  </files>
+  <positions>
+    <position>debug</position>
+    <position>menu</position>
+    <position>top</position>
+    <position>bottom</position>
+  </positions>
+<config>
+</config>
+</extension>
