@@ -18,10 +18,6 @@
     
     <head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-
         <jdoc:include type="head" />
 
         <!-- Load Custom CSS -->
@@ -36,21 +32,24 @@
 
         <jdoc:include type="modules" name="showcase" />
 
-        <nav data-spy="affix" data-offset-top="396"><jdoc:include type="modules" name="navigation" /></nav>
+        <div class="sticky">
+            <nav data-spy="affix" data-offset-top="396"><jdoc:include type="modules" name="navigation" /></nav>
+        </div>
 
         <div class="container">
-            <div style="row">
+            <div class="row">
 
-                <div style="col-md-8">
+                <div class="col-md-8">
                     <jdoc:include type="component" />
                 </div>
 
-                <div style="col-md-4">
-                    <jdoc:include type="modules" name="sidebar" />
+                <div class="col-md-4">
+                    <jdoc:include type="modules" name ="sidebar" />
                 </div>
 
-            </div>
-        </div>
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
       
         <jdoc:include type="modules" name="bottom" />
 
