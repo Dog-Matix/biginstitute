@@ -34,9 +34,7 @@
 
         <jdoc:include type="modules" name="showcase" />
 
-        <div class="sticky">
-            <nav data-spy="affix" data-offset-top="396"><jdoc:include type="modules" name="navigation" /></nav>
-        </div>
+        <div data-spy="affix" data-offset-top="396"><jdoc:include type="modules" name="navigation" /></div>
 
 		<div class="container">
         	<jdoc:include type="component" />
@@ -48,7 +46,7 @@
 
 
     <!-- Load JQuery -->
-    <script defer src="templates/<?php echo $this->template ?>/js/jquery.js"></script>
+    <script defer src="templates/<?php echo $this->template ?>/js/jquery.min.js"></script>
 
     <!-- Load Custom JS -->
     <script defer src="templates/<?php echo $this->template ?>/js/biginstitute.js"></script>
