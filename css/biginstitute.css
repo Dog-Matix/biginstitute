@@ -54,11 +54,23 @@ body {
 	border: none;
 }
 
-  .affix {
+.nav-wrapper {
+	height: 50px;
+}
+
+.col-md-8, .col-md-4 {
+	position: static;
+}
+
+.affix {
       top: 0;
       width: 100%;
   }
 
-  .affix + .container-fluid {
+/* .affix + .container {
+	padding-top: 50px;
+} */
+
+/* .affix + .container-fluid {
       padding-top: 70px;
-  }
+  } */

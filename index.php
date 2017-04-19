@@ -32,23 +32,19 @@
 
         <jdoc:include type="modules" name="showcase" />
 
-        <div class="sticky">
-            <nav data-spy="affix" data-offset-top="396"><jdoc:include type="modules" name="navigation" /></nav>
+        <div class="nav-wrapper">
+            <nav data-spy="affix" data-offset-top="444"><jdoc:include type="modules" name="navigation" /></nav>
         </div>
 
         <div class="container">
             <div class="row">
-
                 <div class="col-md-8">
                     <jdoc:include type="component" />
-                </div>
-
+                </div><!-- /.col-md-8" -->
                 <div class="col-md-4">
-                    <jdoc:include type="modules" name ="sidebar" />
+                    <jdoc:include type="modules" name="sidebar" />
                 </div>
-
             </div><!-- /.row -->
-
         </div><!-- /.container -->
       
         <jdoc:include type="modules" name="bottom" />
