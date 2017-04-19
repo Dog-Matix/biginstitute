@@ -28,17 +28,27 @@
     </head>
 
     <body>
+
 		
         <jdoc:include type="modules" name="top" />
-                    
-      	<jdoc:include type="modules" name="menu" />
-      
+
+        <jdoc:include type="modules" name="showcase" />
+
+        <div class="sticky">
+            <nav data-spy="affix" data-offset-top="396"><jdoc:include type="modules" name="navigation" /></nav>
+        </div>
+
 		<div class="container">
         	<jdoc:include type="component" />
       	</div>
       
         <jdoc:include type="modules" name="bottom" />
 
+        <jdoc:include type="modules" name="debug" />
+
+
+    <!-- Load JQuery -->
+    <script defer src="templates/<?php echo $this->template ?>/js/jquery.js"></script>
 
     <!-- Load Custom JS -->
     <script defer src="templates/<?php echo $this->template ?>/js/biginstitute.js"></script>

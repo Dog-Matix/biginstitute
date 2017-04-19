@@ -19,10 +19,11 @@
     <folder>img</folder>
   </files>
   <positions>
-    <position>debug</position>
-    <position>menu</position>
     <position>top</position>
+    <position>navigation</position>
+    <position>showcase</position>
     <position>bottom</position>
+    <position>debug</position>
   </positions>
 <config>
 </config>

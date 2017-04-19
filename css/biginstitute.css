@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'gooddog_plainregular';
+    src: url('../fonts/gooddog_plain-regular-webfont.eot');
+    src: url('../fonts/gooddog_plain-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gooddog_plain-regular-webfont.woff2') format('woff2'),
+         url('../fonts/gooddog_plain-regular-webfont.woff') format('woff'),
+         url('../fonts/gooddog_plain-regular-webfont.ttf') format('truetype'),
+         url('../fonts/gooddog_plain-regular-webfont.svg#gooddog_plainregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body, p {
+	color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'gooddog_plainregular';
+	color: #FFF;
+}
+
+body {
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jumboFrontPage {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.showcase, .showcase .jumboFrontPage {
+	height:100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.navbar {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+}
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
