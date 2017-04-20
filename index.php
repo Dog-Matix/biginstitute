@@ -38,10 +38,11 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-9">
+                    <jdoc:include type="message" />
                     <jdoc:include type="component" />
                 </div><!-- /.col-md-8" -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <jdoc:include type="modules" name="sidebar" />
                 </div>
             </div><!-- /.row -->
@@ -53,7 +54,7 @@
 
 
     <!-- Load JQuery -->
-    <script defer src="templates/<?php echo $this->template ?>/js/jquery.js"></script>
+    <script defer src="templates/<?php echo $this->template ?>/js/jquery.min.js"></script>
 
     <!-- Load Custom JS -->
     <script defer src="templates/<?php echo $this->template ?>/js/biginstitute.js"></script>
