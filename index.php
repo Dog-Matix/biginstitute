@@ -11,6 +11,8 @@
     JHtml::script(Juri::base() . 'templates/biginstitute/js/jui/bootstrap.min.js', 'bootstrap', true, false, true, true);
     //No Direct Access
     defined('_JEXEC') or die ('Restricted access');
+    //Include Logic
+    include('logic.php');
 ?>
 
 <!DOCTYPE html>
@@ -38,13 +40,13 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <jdoc:include type="message" />
                     <jdoc:include type="component" />
-                </div><!-- /.col-md-8" -->
-                <div class="col-md-3">
+                </div><!-- /.col-md-9 -->
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <jdoc:include type="modules" name="sidebar" />
-                </div>
+                </div><!-- /.col-md-3 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
       
