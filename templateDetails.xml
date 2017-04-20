@@ -17,6 +17,7 @@
     <folder>fonts</folder>
     <folder>js</folder>
     <folder>img</folder>
+    <folder>language</folder>
   </files>
   <positions>
     <position>top</position>
@@ -26,6 +27,47 @@
     <position>bottom</position>
     <position>debug</position>
   </positions>
-<config>
-</config>
+
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.tpl_biginstitute.ini</language>
+    <language tag="en-GB">en-GB/en-GB.tpl_biginstitute.sys.ini</language>
+  </languages> 
+
+  <config>
+    
+    <fields name="params">
+      <fieldset name="general" label="General">
+
+        <field name="logo" type="media"
+            label="TPL_BIGINSTITUTE_FIELD_LOGO_LABEL" description="TPL_BIGINSTITUTE_FIELD_LOGO_DESC" />
+
+        <field name="logotext"  type="text" default="Big Institute Template"
+          label="TPL_BIGINSTITUTE_FIELD_LOGOTEXT_LABEL"
+          description="TPL_BIGINSTITUTE_FIELD_LOGOTEXT_DESC"
+          filter="string" />
+
+        <field name="show_frontpage_component" type="list" default="0"                    
+          label="TPL_BIGINSTITUTE_FIELD_SHOW_FRONTPAGE_COMPONENT_LABEL"
+          description="TPL_BIGINSTITUTE_FIELD_SHOW_FRONTPAGE_COMPONENT_DESC"
+                         filter="word">
+          <option value="0">TPL_BIGINSTITUTE_OPTION_NO</option>
+          <option value="1">TPL_BIGINSTITUTE_OPTION_YES</option>
+        </field>
+
+        <field name="copyright"  type="text" default="Copyright 2017, All Rights Reserved"
+          label="TPL_BIGINSTITUTE_FIELD_COPYRIGHT_LABEL"
+          description="TPL_BIGINSTITUTE_FIELD_COPYRIGHT_DESC"
+          filter="string" />        
+                                 
+        <field name="includejquery" type="list" default="1"                    
+          label="TPL_BIGINSTITUTE_FIELD_INCLUDEJQUERY_LABEL"
+          description="TPL_BIGINSTITUTE_FIELD_INCLUDEJQUERY_DESC"
+          filter="word">
+          <option value="0">TPL_BIGINSTITUTE_OPTION_NO</option>
+          <option value="1">TPL_BIGINSTITUTE_OPTION_YES</option>
+        </field>
+      </fieldset>
+   </fields>
+  </config>
 </extension>
+

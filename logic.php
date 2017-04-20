@@ -1,9 +1,14 @@
 <?php
+
+// Loading Bootstrap 3.3.7
+JHtml::stylesheet(Juri::base() . 'templates/biginstitute/css/jui/bootstrap.min.css');
+JHtml::script(Juri::base() . 'templates/biginstitute/js/jui/bootstrap.min.js', 'bootstrap', true, false, true, true);
+
 //Get Params & Settings
 $logo = $this->params->get('logo');
-$logotext = $this->params->get('logotext','Justified Nav Template');
+$logotext = $this->params->get('logotext','Big Institute');
 $copyright = $this->params->get('copyright');
-$show_frontpage_component = $this->params->get('show_frontpage_component');
+$show_frontpage_component = $this->params->get('show_frontpage_component', 1);
 $includejquery = $this->params->get('includejquery', 1);
 
 //Get Application Object
