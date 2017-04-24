@@ -15,6 +15,7 @@
     <filename>template_thumbnail.png</filename>
     <folder>css</folder>
     <folder>fonts</folder>
+    <folder>html</folder>
     <folder>js</folder>
     <folder>img</folder>
     <folder>language</folder>
@@ -24,8 +25,14 @@
     <position>navigation</position>
     <position>showcase</position>
     <position>sidebar</position>
+    <position>spotlight1</position>
+    <position>spotlight2</position>
+    <position>spotlight3</position>
     <position>bottom</position>
-    <position>debug</position>
+    <position>footer1</position>
+    <position>footer2</position>
+    <position>footer3</position>
+    <position>footer4</position>
   </positions>
 
   <languages folder="language">

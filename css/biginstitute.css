@@ -15,6 +15,14 @@ body, p {
 	color: #FFF;
 }
 
+h1, .pageheader {
+	font-size: 3em;
+}
+
+a:link, a:visited, a:hover {
+	color: #ccc;
+}
+
 legend, h1, h2, h3, h4, h5, h6 {
 	font-family: 'gooddog_plainregular';
 	color: #FFF;
@@ -110,6 +118,33 @@ button, input, select, textarea {
 	margin:56px 0px 10px 0px;	
 }
 
+.spotlights {
+	margin-top: 2em;
+	margin-bottom: 2em;
+    border-top: 10px solid #FFF;
+    border-bottom: 10px solid #FFF;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bottom {
+	margin-bottom: 2em;
+}
+
+.footer {
+	padding-top: 2em;
+    border-top: 10px solid #FFF;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer1, .footer2 {
+	text-align: center;
+}
+
+.footer2 {
+	padding-bottom: 2em;
+}
 /* .affix + .container {
 	padding-top: 50px;
 } */
