@@ -35,7 +35,7 @@
         <?php endif; ?>
 
         <div class="nav-wrapper">
-            <nav data-spy="affix" data-offset-top="444"><jdoc:include type="modules" name="navigation" /></nav>
+            <nav data-spy="affix" data-offset-top="514"><jdoc:include type="modules" name="navigation" /></nav>
         </div>
 
     <div class="container"><!-- container 1 -->
@@ -60,7 +60,6 @@
         </div><!--./ row -->
 
     </div><!-- /.container 1 -->
-
 
     <div class="spotlights">
         <div class="container"><!-- container 2 -->
@@ -136,6 +135,7 @@
 
     <!-- Load Custom JS -->
     <script defer src="templates/<?php echo $this->template ?>/js/biginstitute.js"></script>
+
 
     </body>
 </html>
