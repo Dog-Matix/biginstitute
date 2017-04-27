@@ -10,6 +10,7 @@
   <description>Big Institute Joomla 3 template with Bootstrap 3.3.7</description>
   <files>
     <filename>index.php</filename>
+    <filename>logic.php</filename>
     <filename>templateDetails.xml</filename>
     <filename>template_preview.png</filename>
     <filename>template_thumbnail.png</filename>
@@ -28,6 +29,9 @@
     <position>spotlight1</position>
     <position>spotlight2</position>
     <position>spotlight3</position>
+    <position>fullWidth</position>
+    <position>columnLeft</position>
+    <position>columnRight</position>
     <position>bottom</position>
     <position>footer1</position>
     <position>footer2</position>

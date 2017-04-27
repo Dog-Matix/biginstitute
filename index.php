@@ -22,7 +22,6 @@
 
         <!-- Load Custom CSS -->
         <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/biginstitute.css" type="text/css" />
-
     </head>
 
     <body>
@@ -61,8 +60,32 @@
 
     </div><!-- /.container 1 -->
 
-    <div class="spotlights">
+
+    <div class="content">
         <div class="container"><!-- container 2 -->
+
+            <?php if ($this->countModules('fullWidth')) : ?>
+                <div class="col-md-12 col-xs-12">
+                    <jdoc:include type="modules" name="fullWidth" style="xhtml" />
+                </div><!-- /.columnLeft -->
+            <?php endif; ?>
+            <?php if ($this->countModules('columnLeft')) : ?>
+                <div class="col-md-6 col-xs-12">
+                    <jdoc:include type="modules" name="columnLeft" style="xhtml" />
+                </div><!-- /.columnLeft -->
+            <?php endif; ?>
+            <?php if ($this->countModules('columnRight')) : ?>    
+                <div class="col-md-6 col-xs-12">
+                    <jdoc:include type="modules" name="columnRight" style="xhtml" />
+                </div><!-- /.columnRight -->
+            <?php endif; ?> 
+            
+        </div><!-- /.container 2 -->
+
+    </div><!-- /.content -->
+
+    <div class="spotlights">
+        <div class="container"><!-- container 3 -->
         <?php if($this->countModules('spotlight1') || $this->countModules('spotlight2') || $this->countModules('spotlight3')) : ?>
             <!-- Example row of columns -->
             <div class="row">
@@ -83,7 +106,7 @@
             <?php endif; ?>
             </div>
         <?php endif; ?>
-        </div><!-- /. container 2 -->
+        </div><!-- /. container 3 -->
     </div><!-- /.spotlights -->
 
     <div class="bottom">       
@@ -93,7 +116,7 @@
     </div><!-- /.bottom -->
 
     <div class="footer">
-        <div class="container"><!-- container 3 -->
+        <div class="container"><!-- container 4 -->
         <?php if($this->countModules('footer1') || $this->countModules('footer2') || $this->countModules('footer3')) : ?>
             <!-- Example row of columns -->
             <div class="row">
@@ -121,7 +144,7 @@
             </div>
         <?php endif; ?>
 
-        </div><!-- /. container 3 -->
+        </div><!-- /. container 4 -->
     </div><!-- /.footer -->
 
     <jdoc:include type="modules" name="debug" />
