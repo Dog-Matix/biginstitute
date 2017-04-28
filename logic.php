@@ -1,5 +1,6 @@
 <?php
-
+//No Direct Access
+defined('_JEXEC') or die ('Restricted access');
 // Loading Bootstrap 3.3.7
 JHtml::stylesheet(Juri::base() . 'templates/biginstitute/css/jui/bootstrap.min.css');
 JHtml::script(Juri::base() . 'templates/biginstitute/js/jui/bootstrap.min.js', 'bootstrap', true, false, true, true);
