@@ -29,9 +29,18 @@
     <position>spotlight1</position>
     <position>spotlight2</position>
     <position>spotlight3</position>
-    <position>fullWidth</position>
-    <position>columnLeft</position>
-    <position>columnRight</position>
+    <position>spotlight4</position>
+    <position>spotlight5</position>
+    <position>spotlight6</position>
+    <position>UpperFullWidth</position>
+    <position>UpperColLeft</position>
+    <position>UpperColRight</position>
+    <position>MidFullWidth</position>
+    <position>MidColLeft</position>
+    <position>MidColRight</position>
+    <position>LowerFullWidth</position>
+    <position>LowerColLeft</position>
+    <position>LowerColRight</position>
     <position>bottom</position>
     <position>footer1</position>
     <position>footer2</position>

@@ -156,8 +156,11 @@ img.foreground_image {
 }
 
 .content {
-	margin-top:2em;
 	border-top: 10px solid #FFF;
+}
+
+.content, .lowercontent {
+	margin-top:2em;
 	padding-top: 2em;
 }
 
