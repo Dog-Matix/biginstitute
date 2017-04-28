@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'gooddog_plainregular';
-    src: url('../fonts/gooddog_plain-regular-webfont.eot');
-    src: url('../fonts/gooddog_plain-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/gooddog_plain-regular-webfont.woff2') format('woff2'),
-         url('../fonts/gooddog_plain-regular-webfont.woff') format('woff'),
-         url('../fonts/gooddog_plain-regular-webfont.ttf') format('truetype'),
-         url('../fonts/gooddog_plain-regular-webfont.svg#gooddog_plainregular') format('svg');
+    font-family: 'fff_tusjbold';
+    src: url('../fonts/fff_tusj-webfont.eot');
+    src: url('../fonts/fff_tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fff_tusj-webfont.woff2') format('woff2'),
+         url('../fonts/fff_tusj-webfont.woff') format('woff'),
+         url('../fonts/fff_tusj-webfont.ttf') format('truetype'),
+         url('../fonts/fff_tusj-webfont.svg#fff_tusjbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,7 +28,7 @@ a:visited, a:hover {
 }
 
 legend, h1, h2, h3, h4, h5, h6 {
-	font-family: 'gooddog_plainregular';
+	font-family: 'fff_tusjbold';
 	color: #FFF;
 }
 
@@ -125,6 +125,9 @@ img.foreground_image {
   padding-bottom: 40px;
   background-color: #eee;
 } */
+/*#bootstrap_li_menu_item_109:before {
+	content:'/f107';
+}*/
 
 #login-form {
 	-moz-border-radius: 5px;
