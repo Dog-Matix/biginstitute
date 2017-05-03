@@ -270,8 +270,8 @@
 
         <jdoc:include type="modules" name="debug" />
 
-        <!-- Load JQuery -->
-        <script defer src="templates/<?php echo $this->template ?>/js/jquery.min.js"></script>
+        <!-- Load JQuery
+        <script defer src="templates/<?php // echo $this->template ?>/js/jquery.min.js"></script>  -->
 
         <!-- Load Custom JS -->
         <script defer src="templates/<?php echo $this->template ?>/js/biginstitute.js"></script>

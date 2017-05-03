@@ -1,6 +1,6 @@
 // Javascript //
 
-// navigation //
+// dropdown navigation main nav//
 (function($){
 	$(document).ready(function(){
 		// dropdown
