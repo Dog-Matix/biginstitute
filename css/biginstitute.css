@@ -159,7 +159,7 @@ img.foreground_image {
 	border-top: 10px solid #FFF;
 }
 
-.content, .lowercontent {
+.content, .lowercontent, .midcontent {
 	margin-top:2em;
 	padding-top: 2em;
 }

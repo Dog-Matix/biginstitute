@@ -23,8 +23,6 @@
         <!-- Load Custom CSS -->
         <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/biginstitute.css" type="text/css" />
 
-
-
     </head>
 
     <body id="page-top" data-spy="scroll" data-target=".navbar">
@@ -36,9 +34,11 @@
             <jdoc:include type="modules" name="showcase" style="none" />
         <?php endif; ?>
 
-        <div class="nav-wrapper">
+        <?php if($this->countModules('navigation')) : ?>
+        <div id="mainnav" class="nav-wrapper">
             <nav data-spy="affix" data-offset-top="514"><jdoc:include type="modules" name="navigation" /></nav>
         </div>
+        <?php endif; ?>
 
     <div class="container"><!-- container 1 -->
         <div class="row">
@@ -120,7 +120,7 @@
     <?php endif; ?>
 
     <?php if($this->countModules('MidFullWidth') || $this->countModules('MidColLeft') || $this->countModules('MidColRight')) : ?>
-        <div id="MidFullWidth" class="content">
+        <div id="MidFullWidth" class="midcontent">
             <div class="container"><!-- container 4 -->
 
                 <?php if ($this->countModules('MidFullWidth')) : ?>
