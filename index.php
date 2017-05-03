@@ -49,9 +49,7 @@
                         </button>
 
                         <div id="brand">
-                            <a href="<?php echo $this->params->get('logo_link') ?>"
-                                <img style="width:<?php echo $this->params->get('logo_width') ?>px; height:<?php echo $this->params->get('logo_height') ?>px; " src="<?php echo $this->params->get('logo_file') ?>" alt="Logo" />
-                            </a>
+                            <a class="navbar-brand" href="#"><img src="images/BI_LOGO_50.png"></a>
                         </div>
                     </div>
 
@@ -127,17 +125,17 @@
                     <!-- Example row of columns -->
                     <div class="row">
                         <?php if($this->countModules('spotlight1')) : ?>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
                                 <jdoc:include type="modules" name="spotlight1" style="none" />
                             </div>
                         <?php endif; ?>
                         <?php if($this->countModules('spotlight2')) : ?>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
                                 <jdoc:include type="modules" name="spotlight2" style="none" />
                             </div>
                         <?php endif; ?>
                         <?php if($this->countModules('spotlight3')) : ?>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
                                 <jdoc:include type="modules" name="spotlight3" style="none" />
                             </div>
                         <?php endif; ?>
@@ -183,17 +181,17 @@
                     <!-- Example row of columns -->
                     <div class="row">
                     <?php if($this->countModules('spotlight4')) : ?>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
                             <jdoc:include type="modules" name="spotlight4" style="none" />
                         </div>
                     <?php endif; ?>
                     <?php if($this->countModules('spotlight5')) : ?>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
                             <jdoc:include type="modules" name="spotlight5" style="none" />
                         </div>
                     <?php endif; ?>
                     <?php if($this->countModules('spotlight6')) : ?>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
                             <jdoc:include type="modules" name="spotlight6" style="none" />
                         </div>
                     <?php endif; ?>
