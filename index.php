@@ -103,12 +103,12 @@
 
                     <div class="row">
                         <?php if ($this->countModules('UpperColLeft')) : ?>
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
                                 <jdoc:include type="modules" name="UpperColLeft" style="xhtml" />
                             </div><!-- /.columnLeft -->
                         <?php endif; ?>
                         <?php if ($this->countModules('UpperColRight')) : ?>    
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
                                 <jdoc:include type="modules" name="UpperColRight" style="xhtml" />
                             </div><!-- /.columnRight -->
                         <?php endif; ?>
@@ -159,12 +159,12 @@
 
                     <div class="row">
                         <?php if ($this->countModules('MidColLeft')) : ?>
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
                                 <jdoc:include type="modules" name="MidColLeft" style="xhtml" />
                             </div><!-- /.columnLeft -->
                         <?php endif; ?>
                         <?php if ($this->countModules('MidColRight')) : ?>    
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
                                 <jdoc:include type="modules" name="MidColRight" style="xhtml" />
                             </div><!-- /.columnRight -->
                         <?php endif; ?>
