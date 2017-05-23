@@ -36,7 +36,7 @@
 
         <!--Navigation-->
         <div class="nav-wrapper">    
-            <div data-spy="affix" data-offset-top="512" id="mainnav">
+            <div data-spy="affix" data-offset-top="550" id="mainnav">
                 <div class="container">
                     <div class="navbar navbar-default" role="navigation">
                         
@@ -67,7 +67,7 @@
         </div><!-- /.nav-wrapper -->      
         <!--Navigation-->
 
-        <div class="container"><!-- container 1 -->
+        <div id="maincontent" class="container"><!-- container 1 -->
             <div class="row">
             <?php echo (isset($sidebar) ? '<div class="col-md-8 col-sm-8">' : '<div class="col-md-12">'); ?>
                 <!-- Messages -->
@@ -158,6 +158,7 @@
                         </div>
                     <?php endif; ?>
 
+
                     <div class="row">
                         <?php if ($this->countModules('MidColLeft')) : ?>
                             <div class="col-md-6 col-xs-12">
@@ -183,17 +184,17 @@
                     <div class="row">
                     <?php if($this->countModules('spotlight4')) : ?>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                            <jdoc:include type="modules" name="spotlight4" style="none" />
+                            <jdoc:include type="modules" name="spotlight4" style="xhtml" />
                         </div>
                     <?php endif; ?>
                     <?php if($this->countModules('spotlight5')) : ?>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                            <jdoc:include type="modules" name="spotlight5" style="none" />
+                            <jdoc:include type="modules" name="spotlight5" style="xhtml" />
                         </div>
                     <?php endif; ?>
                     <?php if($this->countModules('spotlight6')) : ?>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                            <jdoc:include type="modules" name="spotlight6" style="none" />
+                            <jdoc:include type="modules" name="spotlight6" style="xhtml" />
                         </div>
                     <?php endif; ?>
                     </div>

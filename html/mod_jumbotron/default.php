@@ -55,7 +55,7 @@ defined('_JEXEC') or die;
   <h1><?php echo $header_text; ?></h1>
   <p><?php echo $paragraph_text; ?></p>
 <?php if(isset($foreground_image)) : ?>
-     <p class="foreground_image_wrap"><img class="foreground_image img-responsive" src="<?php echo JURI::base(); ?><?php echo $foreground_image; ?>" alt="<?php echo $header_text; ?>" /></p>
+    <p class="foreground_image_wrap"><img class="foreground_image img-responsive animated bounceIn" src="<?php echo JURI::base(); ?><?php echo $foreground_image; ?>" alt="<?php echo $header_text; ?>" /></p>
 <?php endif; ?>
   <?php if($show_read_more) : ?>
   <p><a class="<?php echo $buttonstyle; ?>" role="button" href="<?php echo $read_more_link; ?>"><?php echo $read_more_text; ?></a></p>

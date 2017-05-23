@@ -10,6 +10,17 @@
     font-style: normal;
 }
 
+.pastelblue {
+	color: #e1f4fd;
+}
+
+.pastelpink {
+	color: #fde9f1;
+}
+
+.pastelyellow {
+	color: #fffde9;
+}
 
 body:before {
 	content: url(../img/background.jpg);
@@ -73,6 +84,7 @@ button, input, select, textarea {
 }
 
 .jumboFrontPage {
+	height:500px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -109,6 +121,10 @@ img.foreground_image {
     background-color: #555;
 }
 
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	background-color: #777;
+}
+
 /*@media screen and (max-width: 767) {
 	.dropdown-menu {
  	color: #f9f9f9;
@@ -121,6 +137,8 @@ img.foreground_image {
     background-color: #555;
 	}
 } */
+
+.chronoforms6_credits { display:none; }
 
 .nav-wrapper {
 	height: 50px;
@@ -190,6 +208,7 @@ img.foreground_image {
 }
 
 .footer {
+	margin-top: 2em;
 	padding-top: 2em;
     border-top: 10px solid #FFF;
 	height: 100%;

@@ -1,6 +1,6 @@
 // Javascript //
 
-// dropdown navigation main nav//
+// navigation //
 (function($){
 	$(document).ready(function(){
 		// dropdown
@@ -27,3 +27,4 @@
 		e.stopPropagation();
 	});
 })(jQuery);
+

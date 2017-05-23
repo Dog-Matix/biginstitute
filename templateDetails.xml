@@ -37,6 +37,9 @@
     <position>UpperColLeft</position>
     <position>UpperColRight</position>
     <position>MidFullWidth</position>
+    <position>MidCol1</position>
+    <position>MidCol2</position>
+    <position>MidCol3</position>
     <position>MidColLeft</position>
     <position>MidColRight</position>
     <position>LowerFullWidth</position>
