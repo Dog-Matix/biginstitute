@@ -27,6 +27,10 @@
     <position>navigation</position>
     <position>showcase</position>
     <position>sidebar</position>
+    <position>topspotlight1</position>
+    <position>topspotlight2</position>
+    <position>topspotlight3</position>
+    <position>topspotlight4</position>
     <position>spotlight1</position>
     <position>spotlight2</position>
     <position>spotlight3</position>
