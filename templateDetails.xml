@@ -2,11 +2,11 @@
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.1" type="template" client="site">
   <name>Big Institute</name>
-  <version>0.01</version>
-  <creationDate>24/04/2017</creationDate>
+  <version>1.0</version>
+  <creationDate>12/12/2018</creationDate>
   <author>Antony Dickens</author>
   <authorEmail>antony@apdickens.co.uk</authorEmail>
-  <copyright>Copyright (C) 2017 The Big Institute</copyright>
+  <copyright>Copyright (C) 2018 The Big Institute</copyright>
   <description>Big Institute Joomla 3 template with Bootstrap 3.3.7</description>
   <files>
     <filename>index.php</filename>
@@ -82,7 +82,7 @@
           <option value="1">TPL_BIGINSTITUTE_OPTION_YES</option>
         </field>
 
-        <field name="copyright"  type="text" default="Copyright 2017, All Rights Reserved"
+        <field name="copyright"  type="text" default="Copyright ©2018, All Rights Reserved."
           label="TPL_BIGINSTITUTE_FIELD_COPYRIGHT_LABEL"
           description="TPL_BIGINSTITUTE_FIELD_COPYRIGHT_DESC"
           filter="string" />        

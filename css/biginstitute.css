@@ -102,6 +102,10 @@ img.foreground_image {
 	background-size: cover;
 }
 
+.launchpadbanner {
+	background: none !important;
+}
+
 .navbar {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -213,6 +217,36 @@ img.foreground_image {
     border-top: 10px solid #FFF;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.label-info {
+	background-color: #337ab7;
+}
+
+.label-info[href]:focus, .label-info[href]:hover {
+    background-color: #286090;
+}
+
+.tag-list0 {
+	list-style: none;
+}
+
+.pager li > a, .pager li > span {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 14px;
+    background-color: #337ab7;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.info[href]:hover {
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.alert {
+	margin-top:20px;
 }
 
 .footer1, .footer2 {
